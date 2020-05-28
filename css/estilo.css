@@ -1,0 +1,195 @@
+/*------------inicio------------------------*/
+* {
+	padding:0px;
+	margin:0px;
+}
+#header {
+	margin:auto;
+	width:450px;
+	align-content:center;   
+	font-family:arial, helvetica, sans-serif;
+}
+	ul, ol{
+		list-style:none;
+		} 
+		.nav li a{
+			background-color:black;
+			color:#fff;
+			text-decoration:none;
+			padding:22px 15px;
+			display:block; 
+			}
+		 .nav li a:hover {
+		  background-color:#434343; 
+			}
+		.nav > li{
+			float:left;
+			} 
+		.nav li ul{
+				display:none; 
+				position:absolute;
+				min-width:100px;
+				}
+			.nav li:hover > ul {
+	display:block; 
+}
+/*------------footer parte de abajo------------------------*/
+footer{
+	color:white; 
+	width: 1350px;
+	height: 120px;
+	text-align: center;
+
+}
+
+#footer p{
+	width: 800px;
+
+}
+/*------------galeria------------------------*/
+#galeria{
+	width: 1350px;
+	height: auto; overflow: hidden;
+	margin-top: 15px;
+}
+
+.uno{
+	width: 420px;
+	height: auto; overflow: hidden;
+	float: left;
+	padding: 5px;
+	text-align: center;
+	color: #4682b4;
+}
+
+.parrafo{
+	color: #707070;
+	text-align: justify;
+}
+.dos{
+	margin-left: 12px;
+	margin-right: 12px;
+	/*------------galeria------------------------*/
+}
+#conta 
+.tres{
+	width: 820px;
+	height: 500;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 5px;
+	text-align: center;
+	color: #4682b4;
+}
+.cuatro{
+	margin-left: 12px;
+	margin-right: 12px;
+	float: right;
+
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #798e94;
+}
+
+#tex {
+	
+	color:white;
+	text-align:center; 
+}
+}
+.contacto{
+    border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding: 45px 45px 20px;
+    margin-top: 50px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
+     align-items: start;
+     
+}
+.contacto label{
+    display: block;
+    font-weight: bold;
+}
+.contacto div{
+    margin-bottom: 15px;
+}
+.contacto input[type='text'], .contacto textarea{
+    padding: 7px 6px;
+    width: 294px;
+    border: 1px solid #CED5D7;
+    resize: none;
+    box-shadow:0 0 0 3px #EEF5F7;
+    margin: 5px 0;
+}
+.contacto input[type='text']:focus, .contacto textarea:focus{
+    outline: none;
+    box-shadow:0 0 0 3px #dde9ec;
+}
+.contacto input[type='submit']{
+    border: 1px solid #CED5D7;
+    box-shadow:0 0 0 3px #EEF5F7;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px white;
+ 	
+ 	
+    background: #e4f1f6;
+    background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+    background: -webkit-linear-gradient(top, #e4f1f6 0%,#cfe6ef 100%);
+}
+.contacto input[type='submit']:hover{
+    background: #edfcff;
+    background: -moz-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+    background: -webkit-linear-gradient(top, #edfcff 0%,#cfe6ef 100%);
+}
+.contacto input[type='submit']:active{
+    background: #cfe6ef;
+    background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+    background: -webkit-linear-gradient(top, #cfe6ef 0%,#edfcff 100%);
+}
+/*------------galeria------------------------*/
+#gal{
+	width: 1350px;
+	height: auto; overflow: hidden;
+	margin-top: 15px;
+}
+
+.gal1{
+	width: 750px;
+	height: 550px; 
+	float: left;
+	padding: 5px;
+	text-align: center;
+	color: #4682b4;
+}
+
+.gal2{
+	margin-left: 12px;
+	margin-right: 12px;
+	width: 550px;
+}
+
+#gale{
+	width: 1350px;
+	height: auto; overflow: hidden;
+	margin-top: 15px;
+}
+
+.un{
+	width: 500px;
+	height: 50px; 
+	float: left;
+	padding: 5px;
+	text-align: center;
+	color: #4682b4;
+	text-align:left; 
+}
+
+.do{
+	margin-left: 12px;
+	margin-right: 12px;
+	width:800px;
+	text-align:right; 
+}
